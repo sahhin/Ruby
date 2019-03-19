@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/.idea/A1-SoSe2018-StehlampeUndSiedlungMitLoesung.iml" filepath="$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/.idea/A1-SoSe2018-StehlampeUndSiedlungMitLoesung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/.idea/Szene.iml" filepath="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/.idea/Szene.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/.idea/SzeneMitLoesung.iml" filepath="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/.idea/SzeneMitLoesung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/v1-Geometrie.iml" filepath="$PROJECT_DIR$/.idea/v1-Geometrie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../v1-Sportverein/.idea/v1-Sportverein.iml" filepath="$PROJECT_DIR$/../v1-Sportverein/.idea/v1-Sportverein.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../v2-EinfacherKinokartenAutomat/.idea/v2-EinfacherKinokartenAutomat.iml" filepath="$PROJECT_DIR$/../v2-EinfacherKinokartenAutomat/.idea/v2-EinfacherKinokartenAutomat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../v3-KinokartenAutomat/.idea/v3-KinokartenAutomat.iml" filepath="$PROJECT_DIR$/../v3-KinokartenAutomat/.idea/v3-KinokartenAutomat.iml" />
+    </modules>
+  </component>
+</project>

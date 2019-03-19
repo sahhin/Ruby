@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71453ccd-c155-47f1-a04e-f0b4383814c6" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/v1_Geometrie@Toolbox__3_.coverage" NAME="Toolbox (3) Coverage Results" MODIFIED="1521745116444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../v3-KinokartenAutomat" MODULE_NAME="v3-KinokartenAutomat" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@Toolbox.coverage" NAME="Toolbox Coverage Results" MODIFIED="1522219853962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="v1-Geometrie" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@Toolbox__4_.coverage" NAME="Toolbox (4) Coverage Results" MODIFIED="1522074373616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung" MODULE_NAME="A2-SoSe2017 StrassenszeneMitLoesung" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@Song.coverage" NAME="Song Coverage Results" MODIFIED="1521640868247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../v2-EinfacherKinokartenAutomat" MODULE_NAME="v2-EinfacherKinokartenAutomat" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@Toolbox__2_.coverage" NAME="Toolbox (2) Coverage Results" MODIFIED="1521733632078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../v2-EinfacherKinokartenAutomat" MODULE_NAME="v2-EinfacherKinokartenAutomat" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@my_script.rcov" NAME="my_script Coverage Results" MODIFIED="1552481357231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="v1-Geometrie" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@StrassenSzene.coverage" NAME="StrassenSzene Coverage Results" MODIFIED="1522169336367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung" MODULE_NAME="SzeneMitLoesung" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@Toolbox__1_.rcov" NAME="Toolbox (1) Coverage Results" MODIFIED="1552477365107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung" MODULE_NAME="SzeneMitLoesung" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@rotate.coverage" NAME="rotate Coverage Results" MODIFIED="1522129396901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung" MODULE_NAME="SzeneMitLoesung" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@Toolbox__2_.rcov" NAME="Toolbox (2) Coverage Results" MODIFIED="1552477532447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung" MODULE_NAME="A1-SoSe2018-StehlampeUndSiedlungMitLoesung" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@IRB_console__v1_Geometrie.coverage" NAME="IRB console: v1-Geometrie Coverage Results" MODIFIED="1522126004033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="v1-Geometrie" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@tktileattributes.rcov" NAME="tktileattributes Coverage Results" MODIFIED="1552502752165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="v1-Geometrie" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@Toolbox.rcov" NAME="Toolbox Coverage Results" MODIFIED="1552984228836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="v1-Geometrie" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@Toolbox__1_.coverage" NAME="Toolbox (1) Coverage Results" MODIFIED="1522220237250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung" MODULE_NAME="SzeneMitLoesung" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@zahlen_lesen.coverage" NAME="zahlen_lesen Coverage Results" MODIFIED="1522243634914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/v3-Uebungen-Vorlesung" MODULE_NAME="v3-Uebungen-Vorlesung" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@formeln.coverage" NAME="formeln Coverage Results" MODIFIED="1522235379948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/RubymineProjects/v3-Uebungen-Vorlesung" MODULE_NAME="v3-Uebungen-Vorlesung" />
+    <SUITE FILE_PATH="coverage/v1_Geometrie@Toolbox__3_.rcov" NAME="Toolbox (3) Coverage Results" MODIFIED="1552477342802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene" MODULE_NAME="Szene" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-423157638">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="rb" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ruby" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Toolbox.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="264" selection-start-line="264" selection-end-line="264" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Kreis.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class Template" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>require_relative</find>
+      <find>bind(</find>
+      <find>bind</find>
+      <find>yellow</find>
+      <find>loeschen</find>
+      <find>alle</find>
+      <find>loesche</find>
+      <find>alles</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>require</replace>
+      <replace>gelb</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Einstellungen.rb" />
+        <option value="$PROJECT_DIR$/Rechteck.rb" />
+        <option value="$PROJECT_DIR$/ObjectInspector.rb" />
+        <option value="$PROJECT_DIR$/Dreieck.rb" />
+        <option value="$PROJECT_DIR$/../v2-EinfacherKinokartenAutomat/Einstellungen.rb" />
+        <option value="$PROJECT_DIR$/../v2-EinfacherKinokartenAutomat/Song.rb" />
+        <option value="$PROJECT_DIR$/../v3-KinokartenAutomat/Einstellungen.rb" />
+        <option value="$PROJECT_DIR$/../v3-KinokartenAutomat/KinokartenAutomat.rb" />
+        <option value="$PROJECT_DIR$/../v3-KinokartenAutomat/Toolbox.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Toolbox.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/ObjectInspector.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Einstellungen.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/StrassenSzene.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Strasse.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Rechteck.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Leinwand.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/StrassenLaterne.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Kreis.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Dreieck.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Bus.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Kreis.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Rechteck.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/rotate.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Dreieck.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/EinstellungenStrassenSzene.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Einstellungen.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Strasse.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Haus.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Bus.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/StrassenLaterne.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/StrassenSzene.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Leinwand.rb" />
+        <option value="$PROJECT_DIR$/Leinwand.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Leinwand.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/StrassenSzene.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/EinstellungenSzene.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/StrassenLaterne.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Strasse.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Haus.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Bus.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/EinstellungenSzene.rb" />
+        <option value="$USER_HOME$/RubymineProjects/v3-Uebungen-Vorlesung/formeln.rb" />
+        <option value="$USER_HOME$/RubymineProjects/v3-Uebungen-Vorlesung/zahlen_lesen.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/StehLampe.rb" />
+        <option value="$PROJECT_DIR$/my_script.rb" />
+        <option value="$PROJECT_DIR$/tktileattributes.rb" />
+        <option value="$PROJECT_DIR$/Toolbox.rb" />
+        <option value="$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/Toolbox.rb" />
+        <option value="$PROJECT_DIR$/Kreis.rb" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-7" />
+    <option name="y" value="30" />
+    <option name="width" value="974" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="A1-SoSe2018-StehlampeUndSiedlungMitLoesung" type="cbb8eebc:String" user="A1-SoSe2018-StehlampeUndSiedlungMitLoesung" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="v1-Geometrie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="v1-Geometrie" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../v1-StehlampeLoesungVorlesung" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.settings.patched" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\birgit\Documents\HAW\vorlesungen\rubypmpt1\workspace_aufgaben" />
+      <recent name="C:\Users\birgit\Documents\HAW\vorlesungen\rubypmpt1\workspace_aufgaben\A2-SoSe2018 SzeneMitLoesung" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Ruby.Toolbox">
+    <configuration name="Toolbox (1)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="SzeneMitLoesung" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Toolbox.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Toolbox (2)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="A1-SoSe2018-StehlampeUndSiedlungMitLoesung" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Toolbox.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Toolbox" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="v1-Geometrie" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Toolbox.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="my_script" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="v1-Geometrie" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/my_script.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tktileattributes" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="v1-Geometrie" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/tktileattributes.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Ruby.Toolbox" />
+      <item itemvalue="Ruby.Toolbox (2)" />
+      <item itemvalue="Ruby.Toolbox (1)" />
+      <item itemvalue="Ruby.my_script" />
+      <item itemvalue="Ruby.tktileattributes" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.Toolbox" />
+        <item itemvalue="Ruby.tktileattributes" />
+        <item itemvalue="Ruby.my_script" />
+        <item itemvalue="Ruby.Toolbox (2)" />
+        <item itemvalue="Ruby.Toolbox (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71453ccd-c155-47f1-a04e-f0b4383814c6" name="Default" comment="" />
+      <created>1521372252817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521372252817</updated>
+      <workItem from="1521372253992" duration="1300000" />
+      <workItem from="1521374316151" duration="318000" />
+      <workItem from="1521383501748" duration="58000" />
+      <workItem from="1521383949313" duration="11000" />
+      <workItem from="1521470080340" duration="700000" />
+      <workItem from="1521533781910" duration="2284000" />
+      <workItem from="1521634736697" duration="5541000" />
+      <workItem from="1521733250822" duration="6995000" />
+      <workItem from="1522066720476" duration="18746000" />
+      <workItem from="1522160218258" duration="19715000" />
+      <workItem from="1552471736108" duration="1057000" />
+      <workItem from="1552474145757" duration="990000" />
+      <workItem from="1552477079344" duration="19019000" />
+      <workItem from="1552983977788" duration="2175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78909000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="30" width="974" height="1177" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24070022" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48541668" weight="0.32910052" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7133479" visible="true" weight="0.100767754" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2866521" side_tool="true" visible="true" weight="0.100767754" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Structure" order="4" weight="0.53501093" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/StrassenLaterne.rb</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/StrassenLaterne.rb</url>
+          <line>5</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Toolbox.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/ObjectInspector.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Einstellungen.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/StrassenSzene.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Strasse.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Rechteck.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Leinwand.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/StrassenLaterne.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Kreis.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Dreieck.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2017 StrassenszeneMitLoesung/Bus.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/rotate.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Dreieck.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Kreis.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Rechteck.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/Siedlung.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/EinstellungenStehlampeUndSiedlung.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Einstellungen.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Strasse.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Haus.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/.idea/misc.xml" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/StrassenLaterne.rb" />
+    <entry file="file://$PROJECT_DIR$/Leinwand.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Leinwand.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/StrassenSzene.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/EinstellungenSzene.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Leinwand.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Toolbox.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Rechteck.rb" />
+    <entry file="file://$USER_HOME$/RubymineProjects/v3-Uebungen-Vorlesung/formeln.rb" />
+    <entry file="file://$USER_HOME$/RubymineProjects/v3-Uebungen-Vorlesung/zahlen_lesen.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 SzeneMitLoesung/Bus.rb" />
+    <entry file="file://C:/Ruby25-x64/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/EinstellungenSzene.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/StrassenSzene.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/StrassenLaterne.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Strasse.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Point.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Haus.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A2-SoSe2018 Szene/Bus.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/Rechteck.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/StehLampe.rb" />
+    <entry file="file://C:/Ruby25-x64/lib/ruby/2.5.0/rubygems/exceptions.rb" />
+    <entry file="file://$PROJECT_DIR$/my_script.rb" />
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/tk-0.2.0/lib/tk/entry.rb" />
+    <entry file="file://C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/tk-0.2.0/lib/tk/root.rb" />
+    <entry file="file://$PROJECT_DIR$/tktileattributes.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/Toolbox.rb" />
+    <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/Kreis.rb" />
+    <entry file="file://$PROJECT_DIR$/Kreis.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Toolbox.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="264" selection-start-line="264" selection-end-line="264" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

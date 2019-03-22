@@ -22,7 +22,7 @@ Modul: Programmiermethodik I / Programmiertechnik
 
 * Polymorphie (überladen von Methoden)
 
-### Entwicklungsumgebung (IDE)
+## Entwicklungsumgebung (IDE)
 
 [RubyMine][1] - von [JetBrains][2].
 

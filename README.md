@@ -28,7 +28,9 @@ Modul: Programmiermethodik I / Programmiertechnik
 
 [RubyInstaller][3] - [Ruby+Devkit 2.5.3-1][4].
 
-[1]: https://www.jetbrains.com/ruby/ "RubyMine"
+<a href="http://example.com/" target="_blank">Hello, world!</a>
+
+[1]: https://www.jetbrains.com/ruby/ "RubyMine" 
 [2]: https://www.jetbrains.com/ "JetBrains"
 [3]: https://rubyinstaller.org/ "RubyInstaller"
 [4]: https://rubyinstaller.org/downloads/ "Ruby+Devkit 2.5.3-1 (x64)"

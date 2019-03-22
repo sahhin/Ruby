@@ -265,7 +265,7 @@ class TkMethodenDialog < TkToplevel
             my_parent.bind("Return"){ok_button.invoke()}
   end
 
-    #
+    
 end
 
 Toolbox.new()

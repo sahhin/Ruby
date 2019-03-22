@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71453ccd-c155-47f1-a04e-f0b4383814c6" name="Default" comment="" />
+    <list default="true" id="71453ccd-c155-47f1-a04e-f0b4383814c6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../A1-SoSe2019Besuch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A1-SoSe2019Besuch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../v1-StehlampeLoesungVorlesung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../v1-StehlampeLoesungVorlesung/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +40,7 @@
     <session id="-423157638">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -97,6 +101,9 @@
       <replace>require</replace>
       <replace>gelb</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -159,12 +166,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="30" />
     <option name="width" value="974" />
     <option name="height" value="1177" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -339,20 +347,19 @@
     <option name="totallyTimeSpent" value="78909000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="30" width="974" height="1177" extended-state="1" />
-    <editor active="true" />
+    <frame x="-7" y="30" width="974" height="1177" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24070022" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48541668" weight="0.32910052" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7133479" visible="true" weight="0.100767754" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7133479" weight="0.100767754" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.2866521" side_tool="true" visible="true" weight="0.100767754" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />

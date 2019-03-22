@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71453ccd-c155-47f1-a04e-f0b4383814c6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="71453ccd-c155-47f1-a04e-f0b4383814c6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,20 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Toolbox.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="671">
               <caret line="267" column="5" selection-start-line="267" selection-start-column="5" selection-end-line="267" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hallo_welt.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -361,12 +350,12 @@
       <workItem from="1552474145757" duration="990000" />
       <workItem from="1552477079344" duration="19019000" />
       <workItem from="1552983977788" duration="2175000" />
-      <workItem from="1553255721340" duration="1567000" />
+      <workItem from="1553255721340" duration="2214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80476000" />
+    <option name="totallyTimeSpent" value="81123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="30" width="974" height="1177" extended-state="0" />
@@ -469,13 +458,6 @@
     <entry file="file://$PROJECT_DIR$/tktileattributes.rb" />
     <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/Toolbox.rb" />
     <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/Kreis.rb" />
-    <entry file="file://$PROJECT_DIR$/Toolbox.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="267" column="5" selection-start-line="267" selection-start-column="5" selection-end-line="267" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Kreis.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -487,6 +469,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Toolbox.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="267" column="5" selection-start-line="267" selection-start-column="5" selection-end-line="267" selection-end-column="5" />
         </state>
       </provider>
     </entry>

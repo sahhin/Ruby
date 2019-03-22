@@ -1,88 +1,43 @@
-# Project Title
+~~~~ruby
+class HalloWelt
+  puts "Hallo Welt"
+end
+~~~~
 
-One Paragraph of project description goes here
+# PM1/PT (Ruby)
 
-## Getting Started
+Modul: Programmiermethodik I / Programmiertechnik
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Inhalte
 
-### Prerequisites
+* Vom Problem zum Programm: Strukturiertes Vorgehen beim Programmieren
 
-What things you need to install the software and how to install them
+* Typisierungskonzepte, Werte - und Referenztypen
 
-```
-Give examples
-```
+* dynamischer Umgang mit Typen
 
-### Installing
+* Darstellung und Analyse von Kontrollflüssen
 
-A step by step series of examples that tell you how to get a development env running
+* funktionale Abstraktion, Datenabstraktion (ADT), Kontrollabstraktion (z.B. Iteratoren, Streams)
 
-Say what the step will be
+* Polymorphie (überladen von Methoden)
 
-```
-Give the example
-```
+### Entwicklungsumgebung (IDE)
 
-And repeat
+[RubyMine][1] - von [JetBrains][2].
 
-```
-until finished
-```
+[RubyInstaller][3] - [Ruby+Devkit 2.5.3-1][4].
 
-End with an example of getting some data out of the system or using it for a little demo
+[1]: https://www.jetbrains.com/ruby/ "RubyMine"
+[2]: https://www.jetbrains.com/ "JetBrains"
+[3]: https://rubyinstaller.org/ "RubyInstaller"
+[4]: https://rubyinstaller.org/downloads/ "Ruby+Devkit 2.5.3-1 (x64)"
 
-## Running the tests
+## Autoren
 
-Explain how to run the automated tests for this system
+* **Bonesso**
+* **Tekes** - [ezk0](https://github.com/ezk0)
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+~~~~ruby
+Process finished with exit code 0
+~~~~

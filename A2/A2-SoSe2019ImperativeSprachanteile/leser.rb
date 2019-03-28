@@ -43,11 +43,20 @@ class Leser
 
   # TODO wandelt wort in eine ganze Zahl
   def konvertiere_in_ganze_zahl(wort)
-
+    if(zahl?(wort))
+      return wort.to_i
+    else
+    return wort
+    end
   end
 
   # TODO wandelt wort in eine ganze Zahl, wenn wort eine ganze Zahl enthält sonst in eine Gleitkommazahl
   def konvertiere_in_zahl(wort)
+    if(zahl?(wort))
+      return wort.to_f
+    else
+    return wort
+    end
   end
 
 end

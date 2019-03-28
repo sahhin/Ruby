@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71453ccd-c155-47f1-a04e-f0b4383814c6" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Toolbox.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Toolbox.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,10 +41,11 @@
     <session id="-423157638">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/Toolbox.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="671">
-              <caret line="267" column="4" lean-forward="true" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
+              <caret line="267" selection-start-line="267" selection-end-line="267" />
             </state>
           </provider>
         </entry>
@@ -352,22 +354,23 @@
       <workItem from="1552474145757" duration="990000" />
       <workItem from="1552477079344" duration="19019000" />
       <workItem from="1552983977788" duration="2175000" />
-      <workItem from="1553255721340" duration="2799000" />
+      <workItem from="1553255721340" duration="2932000" />
+      <workItem from="1553766360247" duration="592000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81708000" />
+    <option name="totallyTimeSpent" value="82433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="30" width="974" height="1177" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24617068" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25164112" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48541668" weight="0.32910052" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7122538" visible="true" weight="0.24856046" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7122538" weight="0.24856046" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49791667" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,24 +464,18 @@
     <entry file="file://$PROJECT_DIR$/tktileattributes.rb" />
     <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/Toolbox.rb" />
     <entry file="file://$PROJECT_DIR$/../../workspace_aufgaben/A1-SoSe2018-StehlampeUndSiedlungMitLoesung/Kreis.rb" />
+    <entry file="file://$PROJECT_DIR$/hallo_welt.rb" />
+    <entry file="file://$PROJECT_DIR$/Toolbox.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Kreis.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hallo_welt.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Toolbox.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="267" column="4" lean-forward="true" selection-start-line="267" selection-start-column="4" selection-end-line="267" selection-end-column="4" />
         </state>
       </provider>
     </entry>

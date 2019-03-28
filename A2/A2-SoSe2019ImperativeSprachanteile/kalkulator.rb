@@ -13,12 +13,26 @@ class Kalkulator
 
 
 
-# TODO
+# FERTIG
   def reihe_sin(x, n)
-    
-    zaehler = (x**(2*n+1))
-    nenner = fak_start(1,(2*n + 1))
-    sin_x = (-1**n) *
+    # n definiert die Anzahl von Gliedern
+    # es wird über i summiert bis n
+    i       = 0
+    sin_x   = 0
+
+    until i == n
+
+      faktor  = 2*i + 1
+      zaehler = (x**faktor)
+      nenner  = fak_start(1,faktor)
+      sin_x = sin_x + (-1)**i * (zaehler / nenner)
+
+      # i wird jedes Mal 1 addiert bis i == n
+
+      i += 1
+
+    end
+
 
 
 
@@ -31,6 +45,16 @@ class Kalkulator
 
 # TODO
   def n_fuer_fehler_kleiner(x, eps)
+    z = 0
+    until n <= eps
+    n = (reihe_sin(x,z)- Math.sin(x)).abs
+
+    z += 1
+
+    end
+
+    return n
+    puts z
 
   end
 

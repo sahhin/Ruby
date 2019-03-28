@@ -1,22 +1,13 @@
 class Uhr
 
   # TODO
-  def initialize(hour=nil, minute=nil, sec=nil)
-    if(hour == nil || minute == nil || sec == nil)
-      @hour   = Time.now().hour * 3600
-      @minute = Time.now().min  * 60
-      @sekunden    = Time.now().sec
-    else
-      @hour     = hour * 3600
-      @minute   = minute * 60
-      @sekunden = sec
-    end
-    @uhr
+  def initialize(hour, minute, sec)
+
+
   end
 
   # TODO
   def tick()
-
   end
 
   # TODO

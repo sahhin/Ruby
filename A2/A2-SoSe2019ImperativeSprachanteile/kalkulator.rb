@@ -32,10 +32,7 @@ class Kalkulator
       i += 1
 
     end
-
-
-
-
+    return sin_x
   end
 
 # TODO
@@ -46,15 +43,15 @@ class Kalkulator
 # TODO
   def n_fuer_fehler_kleiner(x, eps)
     z = 0
+    n = 1
     until n <= eps
-    n = (reihe_sin(x,z)- Math.sin(x)).abs
+      n = (reihe_sin(x,z) - Math.sin(x)).abs
 
-    z += 1
+      z += 1
 
     end
-
-    return n
-    puts z
+    puts n
+    return z
 
   end
 
@@ -96,7 +93,8 @@ class Kalkulator
 
     return binom_n_k
   end
-
-
 end
+
+puts Kalkulator.new.n_fuer_fehler_kleiner(Math::PI/4, 0.5)
+
 

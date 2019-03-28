@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71453ccd-c155-47f1-a04e-f0b4383814c6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toolbox.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Toolbox.rb" afterDir="false" />
-    </list>
+    <list default="true" id="71453ccd-c155-47f1-a04e-f0b4383814c6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,7 @@
     <session id="-423157638">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.22" value="1" />
@@ -218,7 +215,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../v1-StehlampeLoesungVorlesung" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../A2/A2-SoSe2019ImperativeSprachanteile" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.settings.patched" value="true" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
@@ -355,16 +352,15 @@
       <workItem from="1552477079344" duration="19019000" />
       <workItem from="1552983977788" duration="2175000" />
       <workItem from="1553255721340" duration="2932000" />
-      <workItem from="1553766360247" duration="592000" />
+      <workItem from="1553766360247" duration="610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82433000" />
+    <option name="totallyTimeSpent" value="82451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="30" width="974" height="1177" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25164112" />
       <window_info id="Favorites" order="1" side_tool="true" />

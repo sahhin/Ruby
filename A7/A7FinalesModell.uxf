@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>17</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1836</x>
+      <y>1241</y>
+      <w>374</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes>Spielerin
+--
+@aktueller_raum
+@rucksack
+--
+-initialize(...)
++im_nachbarraum_umsehen(...)
++attackiere(...)
++teleportiere(...)
++auftanken(...)
++to_s(...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1292</x>
+      <y>1377</y>
+      <w>238</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Monster
+--
+--
+-initialize(...)
+#interaktions_form()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1547</x>
+      <y>1377</y>
+      <w>238</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Freund
+--
+--
+-initialize(...)
+#interaktions_form()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1343</x>
+      <y>935</y>
+      <w>323</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>/Bewohner/
+--
+@effekt
+--
+-initialize(...)
++effekt()
++interagiere_mit(spielerin)
+#interaktionsform()
++to_s(...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1547</x>
+      <y>646</y>
+      <w>170</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>/Akteur/
+--
+@ressource
+--
++lebendig?()
++ressource()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1105</x>
+      <y>68</y>
+      <w>170</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>/WeltObjekt/
+--
+@name
+--
+-initialize(...)
+/+aktiv?()/
++to_s(...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1037</x>
+      <y>748</y>
+      <w>272</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>/Effektor/
+--
+--
+/+effekt/
++effekt_anwenden(r_i)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1003</x>
+      <y>1292</y>
+      <w>255</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>Waffe
+--
+@effekt
+@einsatz
+--
+-initialize(...)
++effekt()
++effekt_anwenden(r_i)
++nutzbar?()
++to_s(...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>918</x>
+      <y>374</y>
+      <w>340</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>/RessourceInhaber/
+--
+--
+aktiv?()
+/+ressource()/
++reduziere_ressource(betrag)
++erhoehe_ressource(betrag)
+/#ressource_praefix()/
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>1309</y>
+      <w>272</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>Zaubertrank
+--
+@effekt
+--
+-initialize(...)
++effekt()
++effekt_anwenden(r_i))
++to_s(...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>34</x>
+      <y>1360</y>
+      <w>289</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Tankstelle
+--
+--
+-initialize(...)
+#ressource_praefix()
++betanke(fahrzeug,liter)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>374</x>
+      <y>1360</y>
+      <w>238</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>Teleporter
+--
+--
+-initialize(...)
+#ressource_praefix()
++teleportiere(...)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>493</x>
+      <y>731</y>
+      <w>306</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>/GegenstandMitRessource/
+--
+@ressource
+--
+-initialize(...)
++ressource()
++to_s(...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>374</y>
+      <w>221</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>/Gegenstand/
+--
+@gewicht
+--
+-initialize(...)
++aktiv?()
++verbraucht?()
++nutzbar?()
+to_s(...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>221</x>
+      <y>884</y>
+      <w>442</w>
+      <h>510</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>240.0;10.0;10.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>476</x>
+      <y>884</y>
+      <w>221</w>
+      <h>510</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>884</y>
+      <w>221</w>
+      <h>459</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>748</x>
+      <y>578</y>
+      <w>391</w>
+      <h>748</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;420.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>663</x>
+      <y>578</y>
+      <w>102</w>
+      <h>187</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1411</x>
+      <y>1139</y>
+      <w>102</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1479</x>
+      <y>1139</y>
+      <w>187</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1615</x>
+      <y>782</y>
+      <w>340</w>
+      <h>493</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1462</x>
+      <y>782</y>
+      <w>170</w>
+      <h>187</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1037</x>
+      <y>561</y>
+      <w>595</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;330.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1122</x>
+      <y>850</y>
+      <w>391</w>
+      <h>119</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1088</x>
+      <y>850</y>
+      <w>85</w>
+      <h>476</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>850</x>
+      <y>850</y>
+      <w>306</w>
+      <h>493</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;10.0;10.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>663</x>
+      <y>561</y>
+      <w>374</w>
+      <h>204</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>200.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>748</x>
+      <y>221</y>
+      <w>459</w>
+      <h>187</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>250.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1156</x>
+      <y>221</y>
+      <w>476</w>
+      <h>459</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1819</x>
+      <y>408</y>
+      <w>221</w>
+      <h>255</h>
+    </coordinates>
+    <panel_attributes>Ressource
+--
+@hoehe
+@einheit
+--
+-initialize(...)
++verbraucht?()
++reduziere(betrag)
++erhoehe(betrag)
++to_s(...)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1700</x>
+      <y>493</y>
+      <w>153</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>782</x>
+      <y>493</y>
+      <w>1071</w>
+      <h>391</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;210.0;610.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1870</x>
+      <y>884</y>
+      <w>221</w>
+      <h>255</h>
+    </coordinates>
+    <panel_attributes>Effekt
+--
+@staerke
+@einheit
+@positiv
+--
+-initialize(...)
++anwenden(r_i)
++positiv?()
++to_s()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1649</x>
+      <y>1003</y>
+      <w>255</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1241</x>
+      <y>1020</y>
+      <w>663</w>
+      <h>459</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;250.0;370.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>935</x>
+      <y>1020</y>
+      <w>969</w>
+      <h>459</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;250.0;550.0;10.0</additional_attributes>
+  </element>
+</diagram>

@@ -39,6 +39,12 @@ class Leser
 
   # TODO prüft ob wort (eine Zeichenkette) in eine ganze Zahl gewandelt werden kann
   def ganze_zahl?(wort)
+    begin
+      Integer(wort)
+    rescue ArgumentError,TypeError
+      return false
+    end
+    return true
   end
 
   # TODO wandelt wort in eine ganze Zahl

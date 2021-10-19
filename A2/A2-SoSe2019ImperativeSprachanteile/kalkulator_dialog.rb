@@ -21,6 +21,7 @@ class KalkulatorDialog
     leser      = Leser.new()
     schreiber  = Schreiber.new()
     kalkulator = Kalkulator.new()
+
     while leser.kommando != @stop_wort
     puts @instruktion
     leser.lese
@@ -32,42 +33,50 @@ class KalkulatorDialog
   # TODO Lesen, auswerten und schreiben für eine Eingabe
   def auswerten(leser,schreiber,kalkulator)
 
+    if leser.ganze_zahl?(leser.kommando)
+
     case leser.kommando
     when "1"
-      puts "Bitte Operand für Kubikrechnung eingeben:"
-      leser.lese
-      puts kalkulator.sum_kubik(leser.konvertiere_in_ganze_zahl(leser.kommando))
-    when "2"
-      puts "Bitte Operand für die Fakultät geben"
-      leser.lese
-      puts kalkulator.fak(leser.konvertiere_in_ganze_zahl(leser.kommando),1)
-    when "3"
-      puts "Bitte Operand für Binomialkoeffizienten geben. Erstmal n"
-      leser.lese
-      n = leser.kommando
-      puts "Bitte jetzt k"
-      leser.lese
-      k = leser.kommando
-      puts kalkulator.binom(leser.konvertiere_in_ganze_zahl(n), leser.konvertiere_in_ganze_zahl(k))
-    when "4"
-      puts "Bitte einen Winkel x in Rad eingeben"
-      leser.lese
-      x = leser.kommando
-      puts "Bitte einen Platzhalter n für eine pos. eingeben"
-      leser.lese
-      n = leser.kommando
-      puts kalkulator.reihe_sin(leser.konvertiere_in_zahl(x), leser.konvertiere_in_ganze_zahl(n))
-    when "5"
-      puts "Bitte Platzhalter x für eine Zahl eingeben"
-      leser.lese
-      x = leser.kommando
-      puts "Bitte Platzhalter eps für eine pos Zahl << 1 eingeben"
-      leser.lese
-      eps = leser.kommando
-      puts "Ergebnis: #{kalkulator.n_fuer_fehler_kleiner(leser.konvertiere_in_zahl(x), leser.konvertiere_in_zahl(eps))}"
-    
-    end
+     # puts kalkulator.sum_kubik(leser.konvertiere_in_ganze_zahl(leser.argument(1)))
+     if leser.ganze_zahl?(leser.argument(1))
+      schreiber.ergebnis_ausgeben("summe_kubik", kalkulator.sum_kubik(leser.konvertiere_in_ganze_zahl(leser.argument(1))), leser.argument(1))
+     else
+       schreiber.fehler_meldung_ausgeben
+     end
 
+    when "2"
+      #puts kalkulator.fak(leser.konvertiere_in_ganze_zahl(leser.argument(1)))
+      if leser.ganze_zahl?(leser.argument(1))
+      schreiber.ergebnis_ausgeben("fakultät", kalkulator.fak(leser.konvertiere_in_ganze_zahl(leser.argument(1))), leser.argument(1))
+      else
+        schreiber.fehler_meldung_ausgeben
+      end
+    when "3"
+      #puts kalkulator.binom(leser.konvertiere_in_ganze_zahl(leser.argument(1)), leser.konvertiere_in_ganze_zahl(leser.argument(2)))
+      if (leser.ganze_zahl?(leser.argument(1))) && (leser.ganze_zahl?(leser.argument(2)))
+      schreiber.ergebnis_ausgeben("binom", kalkulator.binom(leser.konvertiere_in_ganze_zahl(leser.argument(1)), leser.konvertiere_in_ganze_zahl(leser.argument(2))), leser.argument(1), leser.argument(2))
+      else
+        schreiber.fehler_meldung_ausgeben
+      end
+    when "4"
+     #puts kalkulator.reihe_sin(leser.konvertiere_in_zahl(leser.argument(1)), leser.konvertiere_in_ganze_zahl(leser.argumen(2)))
+      if (leser.zahl?(leser.argument(1))) && (leser.zahl?(leser.argument(2)))
+      schreiber.ergebnis_ausgeben(:reihe_sin, kalkulator.reihe_sin(leser.konvertiere_in_zahl(leser.argument(1)), leser.konvertiere_in_ganze_zahl(leser.argument(2))), leser.argument(1), leser.argument(2))
+      else
+        schreiber.fehler_meldung_ausgeben
+        end
+    when "5"
+      #puts "Ergebnis: #{kalkulator.n_fuer_fehler_kleiner(leser.konvertiere_in_zahl(leser.argument(1)), leser.konvertiere_in_zahl(leser.argument(2)))}"
+      if (leser.zahl?(leser.argument(1))) && (leser.zahl?(leser.argument(2)))
+        schreiber.ergebnis_ausgeben("n_fuer_fehler_kleiner", kalkulator.n_fuer_fehler_kleiner(leser.konvertiere_in_zahl(leser.argument(1)), leser.konvertiere_in_zahl(leser.argument(2))), leser.argument(1), leser.argument(2))
+      else
+        schreiber.fehler_meldung_ausgeben
+        end
+    end
+    else
+      schreiber.fehler_meldung_ausgeben
+    end
+    return leser.eingabe()
   end
 
   # TODO
